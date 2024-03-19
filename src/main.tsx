@@ -17,7 +17,7 @@ import Plan from "./pages/Plan.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/coffeeroaster-subscription-site/",
     element: <App />,
     children: [
       {
@@ -25,11 +25,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "/coffeeroaster-subscription-site/about",
         element: <About />,
       },
       {
-        path: "/plan",
+        path: "/coffeeroaster-subscription-site/plan",
         element: <Plan />,
       },
     ],

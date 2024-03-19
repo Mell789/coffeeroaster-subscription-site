@@ -47,34 +47,55 @@ export default function Navbar() {
           }}
         >
           <li className="mt-40">
-            <Link to="/" className="d-block" onClick={setDisplayListFalse}>
+            <Link
+              to="/coffeeroaster-subscription-site/"
+              className="d-block"
+              onClick={setDisplayListFalse}
+            >
               <h4 className="fraunces text-center m-0">Home</h4>
             </Link>
           </li>
           <li>
-            <Link to="/about" className="d-block" onClick={setDisplayListFalse}>
+            <Link
+              to="/coffeeroaster-subscription-site/about"
+              className="d-block"
+              onClick={setDisplayListFalse}
+            >
               <h4 className="fraunces text-center  m-0">About Us</h4>
             </Link>
           </li>
           <li>
-            <Link to="/plan" className="d-block" onClick={setDisplayListFalse}>
+            <Link
+              to="/coffeeroaster-subscription-site/plan"
+              className="d-block"
+              onClick={setDisplayListFalse}
+            >
               <h4 className="fraunces text-center  m-0">Create Your Plan</h4>
             </Link>
           </li>
         </ul>
         <ul className="d-none d-md-flex gap-30">
           <li>
-            <Link to="/" className="barlow link">
+            <Link
+              to="/coffeeroaster-subscription-site/"
+              className="barlow link"
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="barlow link">
+            <Link
+              to="/coffeeroaster-subscription-site/about"
+              className="barlow link"
+            >
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/plan" className="barlow link">
+            <Link
+              to="/coffeeroaster-subscription-site/plan"
+              className="barlow link"
+            >
               Create Your Plan
             </Link>
           </li>
