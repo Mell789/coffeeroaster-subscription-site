@@ -1,0 +1,78 @@
+
+
+:root {
+    --dark-cyan: #0E8784;
+    --dark-grey-blue: #333D4B;
+    --dark-grey: #2C343E;
+    --pale-orange: #FDD6BA;
+    --light-cream: #FEFCF7;
+    --grey: #83888F;
+}
+
+.light-cream {color: var(--light-cream) !important;}
+.dark-cyan {color: var(--dark-cyan) !important;}
+.dark-grey-blue {color: var(--dark-grey-blue) !important;}
+.pale-orange {color: var(--pale-orange) !important;}
+.grey {color: var(--grey) !important;}
+
+.grey-bg {background-color: var(--grey);}
+.dark-cyan-bg {background-color: var(--dark-cyan) !important;}
+.dark-grey-blue-bg {background-color: var(--dark-grey-blue);}
+.dark-grey-bg {background-color: var(--dark-grey);}
+
+/* main button */
+.mainButton {
+    border-radius: 6px;
+    background: #0E8784;
+    border: 1px solid #0E8784;
+    padding: 16px 30px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 138.889%;
+}
+.mainButton:hover {
+    background: #66D2CF;
+    border-color: #66D2CF;
+}
+.mainButton:disabled {
+    background: #E2DEDB;
+    border-color: #E2DEDB;
+    cursor: not-allowed;
+}
+
+/* big selection option */
+.bigSelectionOption {
+    border-radius: 8px;
+    background-color: #F4F1EB;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+.bigSelectionOption.active {
+    background-color: #0E8784 !important;
+}
+.bigSelectionOption.active div {
+    color: #fff !important;
+}
+.bigSelectionOption.active p {
+    color: #FEFCF7 !important;
+}
+.bigSelectionOption:hover {
+    background: #FDD6BA;
+}
+body {
+    background: #FEFCF7;
+}
+
+.borderRadius10 {border-radius: 10px;}
+
+.opacity08 {
+    opacity: 0.8;
+}

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Fraunces;
+    src: url("./fonts/fraunces_all.ttf");
+}
+
+@font-face {
+    font-family: Barlow;
+    src: url("./fonts/Barlow-Medium.ttf");
+}
+
+/* fraunce */
+.fraunces {
+    font-family: Fraunces;
+    font-weight: 900;
+    line-height: 1;
+    color: #83888F;
+}
+.fraunces.theAlternateBig {
+    color: #83888F;
+    font-size: 150px;
+    line-height: 72px;
+    text-transform: lowercase;
+}
+
+
+/* barlow */
+.barlow {
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 166.667%;
+    color: #333D4B;
+    font-weight: 400;
+}
+
+.barlow.link {
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}

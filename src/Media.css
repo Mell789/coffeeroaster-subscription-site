@@ -1,0 +1,178 @@
+@media screen and (max-width:320px){
+    div.collectionCaption {
+        font-size: 32px !important;
+    }
+    .fraunces.coffeeCaption {
+        font-size: 32px !important;
+    }
+    /* home */
+    .whyContainer {
+        height: 650px;
+    }
+    /* about */
+    .quality-caption {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (min-width:576px){
+    /* about */
+    .backgroundAboutus {
+        background-image: url('./assets/about/tablet/image-hero-whitecup.jpg');
+    }
+    .imgCommitment {
+        width: 280px;
+        height: 470px;
+    }
+    /* plan */
+    section.plan.background {
+        background-image: url('./assets/plan/tablet/image-hero-blackcup.jpg');
+    }
+}
+@media screen and (min-width:768px){
+    /* home */
+    .backgroundCoffee {
+        background-image: url('./assets/home/tablet/image-hero-coffeepress.jpg');
+    }
+    .backgroundCoffee .content {
+        max-width: 400px;
+    }
+    .marginbottom {
+        margin-bottom: 144px;
+    }
+    .collectionImage {
+        width: 250px;
+    }
+    .collectionBox-content {
+        width: 280px;
+    }
+    div.collectionCaption {
+        transform: translateY(70px);
+        font-size: 96px !important;
+    }
+    .whychoousBackground {
+        background-color: #2C343E;
+    }
+    .whyContainer {
+        height: 333px;
+    }
+    .whyImage {
+        width: 56px;
+        height: auto;
+    }
+    .hiwDiv {
+        width: 200px;
+    }
+    /* about */
+    .aboutus-content {
+        width: 400px;
+    }
+    /* plan */
+    section.plan .content {
+        width: 400px;
+    }
+
+    /* footer */
+    .footerLogo {height: 26px;}
+}
+@media screen and (min-width:1024px){
+    /* home */
+    .backgroundCoffee .content {
+        max-width: 500px;
+    }
+    .fraunces.largeSize {
+        font-size: 72px !important;
+    }
+    .whyContainer {
+        height: 310px;
+    }
+    .whyBox {
+        width: 350px;
+    }
+    .hiwDiv {
+        width: 230px;
+    }
+    .line {
+        width: 242px;
+    }
+    /* about */
+    .ourcommitment-content {
+        width: 540px;
+    }
+}
+@media screen and (min-width:1200px){
+    /* home */
+    .backgroundCoffee {
+        background-image: url('./assets/home/desktop/image-hero-coffeepress.jpg');
+    }
+    .marginbottom {
+        margin-bottom: 200px;
+    }
+    div.collectionCaption {
+        transform: translateY(150px);
+        font-size: 190px !important;
+    }
+    .px-xl-370 {
+        padding-left: 350px !important;
+        padding-right: 350px !important;
+    }
+    .whyImage {
+        width: 72px;
+    }
+    .whyContainer {
+        height: 270px;
+    }
+    .hiwDiv {
+        width: 285px;
+    }
+    .line {
+        width: 272px;
+    }
+    /* about */
+    .backgroundAboutus {
+        background-image: url('./assets/about/desktop/image-hero-whitecup.jpg');
+    }
+    .aboutus-content {
+        width: 445px;
+    }
+    .imgCommitment {
+        width: 445px;
+        height: 520px;
+    }
+    .quality {background-color: #2C343E;}
+    .quality .qualityContainer {
+        position: relative;
+    }
+    .quality .imgdiv {
+        position: absolute;
+        right: 85px;
+        top: -88px;
+    }
+    .quality img {
+        width: 445px;
+    }
+    .quality .content {
+        max-width: 540px;
+    }
+    /* plan */
+    section.plan .content {
+        width: 450px;
+    }
+    section.plan.background {
+        background-image: url('./assets/plan/desktop/image-hero-blackcup.jpg');
+    }
+    .bigSelectionOption {
+        padding: 32px 28px 84px 28px;
+        gap: 24px;
+    }
+    .bigSelectionOption p {
+        width: 170px;
+    }
+}
+@media screen and (min-width:1400px){
+    .line {
+        width: 351px;
+    }
+}
+@media screen and (min-width:1600px){}
+@media screen and (min-width:1900px){}
