@@ -33,17 +33,26 @@ export default function Footer() {
             {/* footer links */}
             <ul className="footerLinks d-flex flex-column flex-md-row justify-content-md-center gap-24 gap-md-33 align-items-center">
               <li>
-                <Link to="/" className="text-uppercase barlow link">
+                <Link
+                  to="/coffeeroaster-subscription-site/"
+                  className="text-uppercase barlow link"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-uppercase barlow link">
+                <Link
+                  to="/coffeeroaster-subscription-site/about"
+                  className="text-uppercase barlow link"
+                >
                   About us
                 </Link>
               </li>
               <li>
-                <Link to="/createplan" className="text-uppercase barlow link">
+                <Link
+                  to="/coffeeroaster-subscription-site/plan"
+                  className="text-uppercase barlow link"
+                >
                   Create your plan
                 </Link>
               </li>
