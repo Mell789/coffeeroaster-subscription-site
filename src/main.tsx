@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import "./font.css";
 import "./index.css";
@@ -15,7 +15,7 @@ import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import Plan from "./pages/Plan.tsx";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/coffeeroaster-subscription-site/",
     element: <App />,
