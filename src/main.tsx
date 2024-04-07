@@ -17,7 +17,7 @@ import Plan from "./pages/Plan.tsx";
 
 const router = createHashRouter([
   {
-    path: "/coffeeroaster-subscription-site/",
+    path: "/",
     element: <App />,
     children: [
       {
@@ -25,11 +25,11 @@ const router = createHashRouter([
         element: <Home />,
       },
       {
-        path: "/coffeeroaster-subscription-site/about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "/coffeeroaster-subscription-site/plan",
+        path: "/plan",
         element: <Plan />,
       },
     ],
