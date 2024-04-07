@@ -38,6 +38,8 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter basename="/coffeeroaster-subscription-site">
+      <RouterProvider router={router} />
+    </HashRouter>
   </React.StrictMode>
 );
